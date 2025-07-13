@@ -1,0 +1,41 @@
+# Introduction to Graph | Types | Different Conventions Used
+Graphs are two types:
+1. Directed graph (Edges having directions)
+2. UnDirected graph (Edges not having directions)
+
+Graph contains Nodes/vertex and edges.
+
+Circles represent Nodes and lines represent edges. 
+
+An UnDirected graph has bi directional edges
+and Directed graph can have uni or bi directional edges
+
+u - v (UnDirected)
+u->v & v->u
+
+u -> v | v -> u (Directed)
+
+* Binary trees can also be called as a graph
+
+Cyclic - Start from a node and end at that node
+Acyclic - Start from a node but doesnt reach that node
+
+1. UnDirected Cyclic Graph
+2. UnDirected Acyclic Graph
+3. Directed Cyclic Graph
+4. Directed Acyclic Graph (DAG)
+
+Path - Graph containing nodes which are reachable
+* Node cannot appear twice in a path
+
+Degrees of a graph - No. of edges that comes and goes in a node
+Example:
+D(3) -> 2
+
+* Property: Total Degree of a graph = (2 * E)
+
+Indegree & Outdegree
+
+Edge Weights - Weight of an edge
+* By default, Edge Weight is 1
+
